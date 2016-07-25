@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import BookList from './booklist/booklist'
+
 
 class App extends Component {
     constructor(props) {
@@ -13,7 +13,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <BookList />
+                BookList   
             </div>
         );
     }
