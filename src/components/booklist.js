@@ -1,42 +1,38 @@
 import React, {Component} from 'react';
 
+class BookList extends Component {  
+  render() {
+    var bookNodes = this.props.books.map((book) => {
+      return (
+        <div key={book.id}>
+          <li>
+            {book.title}
+          <div>
+            Author: {book.author}
+          </div> 
+          <div>
+            Publication Year: {book.publication}
+          </div>
+          <div>
+            Genre: {book.genre}
+          </div>
+          <div>
+            Links: {book.links}
+          </div>
+          </li>
+        </div>
+      );
+    });
 
-const Booklist = ({books})=>{
-
-  if (books.length<1) {
-    return (<div>No books or still Searching...</div>);
-  }
-            
-  const booklist = books.map((book) => {
     return (
-    <div key={book.id}>
-      <li>
-        {book.title}
       <div>
-        Author: {book.author}
-      </div> 
-      <div>
-        Publication Year: {book.publication}
+          <ul>
+            {bookNodes}
+          </ul>
       </div>
-      <div>
-        Genre: {book.genre}
-      </div>
-      <div>
-        Links: {book.links}
-      </div>
-      </li>
-    </div>
     );
-  });
-
-return (
-<div>
-    <ul>
-      {booklist}
-    </ul>
-</div>
-  );
-
+  }
 }
 
-export default Booklist;
+
+export default BookList;
