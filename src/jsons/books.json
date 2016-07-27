@@ -1,5 +1,6 @@
 [
 	{
+		"id": 1,
 		"title": "title1",
 		"author": "author1",
 		"publication": "publication year 1",
@@ -8,6 +9,7 @@
 	},
 
 	{
+		"id": 2,
 		"title": "title2",
 		"author": "author2",
 		"publication": "publication year 2",
@@ -16,6 +18,7 @@
 	},
 
 	{
+		"id": 3,
 		"title": "title3",
 		"author": "author3",
 		"publication": "publication year 3",
@@ -24,6 +27,7 @@
 	},
 
 	{
+		"id": 4,
 		"title": "title4",
 		"author": "author4",
 		"publication": "publication year 4",
@@ -32,6 +36,7 @@
 	},
 
 	{
+		"id": 5,
 		"title": "title5",
 		"author": "author5",
 		"publication": "publication year 5",

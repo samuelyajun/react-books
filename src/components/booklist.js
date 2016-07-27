@@ -5,8 +5,9 @@ class BookList extends Component {
     var bookNodes = this.props.books.map((book) => {
       return (
         <div key={book.id}>
+
           <li>
-            {book.title}
+            {book.title} 
           <div>
             Author: {book.author}
           </div> 
