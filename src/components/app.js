@@ -3,8 +3,7 @@ import $ from "jquery";
 import _ from 'lodash';
 import BookList from './booklist';
 import SearchBar from './SearchBar';
-import BookServices from './services/bookServices.js';
-
+import BookServices from '../services/bookServices.js';
 
 
 class App extends Component {
