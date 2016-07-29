@@ -10,7 +10,8 @@ var books=[
         "author": "author1",
         "publication": "publication year 1",
         "genre": "genre1",
-        "links": "link1"
+        "links": "link1",
+        "linkAddress": "http://www.w3schools.com/html/html_links.asp"
     },
 
     {
@@ -19,7 +20,8 @@ var books=[
         "author": "author2",
         "publication": "publication year 2",
         "genre": "genre2",
-        "links": "link2"
+        "links": "link2",
+        "linkAddress": "http://www.w3schools.com/html/html_links.asp"
     },
 
     {
@@ -28,7 +30,8 @@ var books=[
         "author": "author3",
         "publication": "publication year 3",
         "genre": "genre3",
-        "links": "link3"
+        "links": "link3",
+        "linkAddress": "http://www.w3schools.com/html/html_links.asp"
     },
 
     {
@@ -37,7 +40,8 @@ var books=[
         "author": "author4",
         "publication": "publication year 4",
         "genre": "genre4",
-        "links": "link4"
+        "links": "link4",
+        "linkAddress": "http://www.w3schools.com/html/html_links.asp"
     },
 
     {
@@ -46,7 +50,8 @@ var books=[
         "author": "author5",
         "publication": "publication year 5",
         "genre": "genre5",
-        "links": "link5"
+        "links": "link5",
+        "linkAddress": "http://www.w3schools.com/html/html_links.asp"
     }
 ];
 

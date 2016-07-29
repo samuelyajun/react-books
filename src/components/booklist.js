@@ -18,7 +18,7 @@ class BookList extends Component {
             Genre: {book.genre}
           </div>
           <div>
-            Links: {book.links}
+            Links: <a href={book.linkAddress}>{book.links}</a>
           </div>
           </li>
         </div>
